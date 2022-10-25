@@ -23,8 +23,12 @@ while True:
     taskcount += 1
     
     
-# i had to check the syntax for this as im used to saving JSONObjects and JSONArrays in java rather than text files in python but its file = open("filename", "w") w is to open to file to write to file.write("stuff") is to write stuff to the file and file.close() is to finish with the file
-# although from what i remember of JSON files this is fairly similar
+#i had to check the syntax for this as im used to saving JSONObjects and JSONArrays in java rather than text files in python
+#but its file = open("filename", "w") w is to open the file to write to as opposed to simply reading the file from the drive
+#file.write("stuff") is to write stuff to the file and
+#file.close() is to finish with the file
+#although from what i remember of JSON files this is fairly similar
+
 count = 0
 for x in checklist:
     if count == 0:
